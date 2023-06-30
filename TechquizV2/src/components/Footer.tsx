@@ -1,13 +1,6 @@
-import { useState } from "react";
 
 
 function Footer() {
-
-    const [isLinksOpen, setIsLinksOpen] = useState(false);
-
-    const handleLinksToggle = () => {
-        setIsLinksOpen(!isLinksOpen);
-    };
 
     return (
 
