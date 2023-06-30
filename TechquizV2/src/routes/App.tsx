@@ -1,11 +1,11 @@
-import Navbar from '../components/Navbar.tsx';
+import Home from "../screens/Home";
 
 function App() {
 
 
   return (
     <>
-    <Navbar />
+    <Home />
 
     </>
   )
