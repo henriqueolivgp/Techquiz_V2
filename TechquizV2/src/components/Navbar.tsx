@@ -21,7 +21,7 @@ export default function Navbar() {
         <nav className="bg-white border-gray-200 dark:bg-gray-900">
             <div className="container-xxl flex flex-wrap items-center p-5">
                 <a href="#" className="flex items-center">
-                    <img src="/src/assets/TechquizBlack.png" className="h-8 mr-3" alt="Flowbite Logo" />
+                    <img src="/src/assets/TechquizBlack.png" className="h-6 " alt="Flowbite Logo" />
                 </a>
                 <div className="flex items-center md:order-2 mx-auto mr-3">
                     <div className="relative hidden md:block mr-4">
