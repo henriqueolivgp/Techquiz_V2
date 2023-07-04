@@ -1,3 +1,5 @@
+import flowbitePlugin from 'flowbite/plugin';
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -6,9 +8,13 @@ export default {
   ],
   theme: {
     extend: {},
+    // Define os breakpoints personalizados
+    breakpoints: {
+      xs: "475px", // ou qualquer valor que você preferir
+    },
   },
   plugins: [
-    require('flowbite/plugin')
+    flowbitePlugin
   ],
 }
 

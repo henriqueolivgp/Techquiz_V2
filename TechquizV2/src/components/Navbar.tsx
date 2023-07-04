@@ -21,7 +21,7 @@ export default function Navbar() {
         <nav className="bg-white border-gray-200 dark:bg-gray-900">
             <div className="container-xxl flex flex-wrap items-center p-5">
                 <a href="#" className="flex items-center">
-                    <img src="/src/assets/TechquizBlack.png" className="h-8 mr-3" alt="Flowbite Logo" />
+                    <img src="/src/assets/logo/TechquizBlack.png" className="h-6 " alt="Techquiz-logo" />
                 </a>
                 <div className="flex items-center md:order-2 mx-auto mr-3">
                     <div className="relative hidden md:block mr-4">
@@ -41,8 +41,8 @@ export default function Navbar() {
                             id="user-dropdown"
                         >
                             <div className="px-4 py-3">
-                                <span className="block text-sm text-gray-900 dark:text-white">Bonnie Green</span>
-                                <span className="block text-sm  text-gray-500 truncate dark:text-gray-400">name@flowbite.com</span>
+                                <span className="block text-sm text-gray-900 dark:text-white">Name LastName</span>
+                                <span className="block text-sm  text-gray-500 truncate dark:text-gray-400">emai@email.com</span>
                             </div>
                             <ul className="py-2" aria-labelledby="user-menu-button">
                                 <li>
