@@ -8,6 +8,10 @@ export default {
   ],
   theme: {
     extend: {},
+    // Define os breakpoints personalizados
+    breakpoints: {
+      xs: "475px", // ou qualquer valor que você preferir
+    },
   },
   plugins: [
     flowbitePlugin
