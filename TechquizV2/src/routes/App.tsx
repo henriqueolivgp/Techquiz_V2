@@ -1,12 +1,16 @@
-import Home from "../screens/Home";
+import {Outlet} from 'react-router-dom';
+import Navbar from '../components/Navbar';
+import  Footer  from '../components/Footer';
+
 
 function App() {
 
 
   return (
     <>
-    <Home />
-
+    <Navbar />
+    <Outlet />
+    <Footer />
     </>
   )
 }
