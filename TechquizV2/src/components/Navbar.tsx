@@ -32,7 +32,7 @@ export default function Navbar() {
                         </div>
                         <input type="text" id="search-navbar" className="block w-full p-2 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search..." />
                     </div>
-                    <div className="relative">
+                    <div className="relative mr-2">
                         <button type="button" className="flex mr-3 text-sm bg-gray-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" id="user-menu-button" aria-expanded={isDropdownOpen} data-dropdown-toggle="user-dropdown" data-dropdown-placement="bottom" onClick={handleDropdownToggle}>
                             <span className="sr-only">Open user menu</span>
                             <img className="w-8 h-8 rounded-full" src="/src/assets/user.png" alt="user photo" />
@@ -60,6 +60,11 @@ export default function Navbar() {
                                 </li>
                             </ul>
                         </div>
+                    </div>
+                    <div>
+                    <a href="#" class="text-sm mr-2  text-blue-600 dark:text-blue-500 hover:underline">Registo</a>
+                    <a href="#"></a>
+                    <a href="#" class="text-sm  text-blue-600 dark:text-blue-500 hover:underline">Login</a>
                     </div>
 
                     <button data-collapse-toggle="mobile-menu-2" type="button" className="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mobile-menu-2" aria-expanded={isLinksOpen} onClick={handleLinksToggle}>
