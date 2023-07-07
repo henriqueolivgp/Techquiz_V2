@@ -27,6 +27,17 @@ export default {
 
       '2xl': '1536px',
       // => @media (min-width: 1536px) { ... }
+    },
+    fontSize: {
+      xl: ['24px', '32px'],
+    },
+    colors: {
+      // Configure your color palette here
+      aqua: '#45CFDD',
+      darkAqua: '#3AA6B9',
+    },
+    fontFamily: {
+      'Epilogue': '',
     }
   },
   plugins: [

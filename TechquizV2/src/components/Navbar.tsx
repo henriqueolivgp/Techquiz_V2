@@ -50,7 +50,7 @@ export default function Navbar() {
                                     <Link to="my-profile" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">My-Profile</Link>
                                 </li>
                                 <li>
-                                    <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Settings</a>
+                                    <a href="settings" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Settings</a>
                                 </li>
                                 {/*<li>
                                     <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Dark-Button</a>
@@ -62,9 +62,9 @@ export default function Navbar() {
                         </div>
                     </div>
                     <div>
-                    <a href="#" class="text-sm mr-2  text-blue-600 dark:text-blue-500 hover:underline">Registo</a>
+                    <Link to="register" className="text-lg mr-2  text-blue-600 dark:text-blue-500 hover:underline">Registo</Link>
                     <a href="#"></a>
-                    <a href="#" class="text-sm  text-blue-600 dark:text-blue-500 hover:underline">Login</a>
+                    <Link to="login" className="text-lg  text-blue-600 dark:text-blue-500 hover:underline">Login</Link>
                     </div>
 
                     <button data-collapse-toggle="mobile-menu-2" type="button" className="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mobile-menu-2" aria-expanded={isLinksOpen} onClick={handleLinksToggle}>
