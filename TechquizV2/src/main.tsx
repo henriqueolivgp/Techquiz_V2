@@ -9,6 +9,9 @@ import Support from './screens/Support.tsx'
 
 // import react-router-dom
 import {createBrowserRouter, RouterProvider} from 'react-router-dom';
+import Register from './screens/Register.tsx'
+import Login from './screens/Login.tsx'
+import Settings from './screens/Settings.tsx'
 
 
 //riacao da funcao que contem as paginas
@@ -22,6 +25,18 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />
+      },
+      {
+        path: "register",
+        element: <Register />
+      },
+      {
+        path: "login",
+        element: <Login />
+      },
+      {
+        path: "settings",
+        element: <Settings />
       },
       {
         path: "about-us",
