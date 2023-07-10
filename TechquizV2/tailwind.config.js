@@ -29,7 +29,14 @@ export default {
       // => @media (min-width: 1536px) { ... }
     },
     fontSize: {
+      sm: ['14px', '20px'],
+      base: ['16px', '24px'],
+      lg: ['20px', '28px'],
       xl: ['24px', '32px'],
+      '2xl': '1.563rem',
+      '3xl': '1.953rem',
+      '4xl': '2.441rem',
+      '5xl': '3.052rem',
     },
     colors: {
       // Configure your color palette here
@@ -38,7 +45,16 @@ export default {
     },
     fontFamily: {
       'Epilogue': '',
-    }
+    },
+    borderRadius: {
+      'none': '0',
+      '2xl': '1.2rem',
+      'sm': '0.125rem',
+      'md': '0.375rem',
+      'lg': '0.5rem',
+      'full': '9999px',
+      'large': '12px',
+    },
   },
   plugins: [
     flowbitePlugin

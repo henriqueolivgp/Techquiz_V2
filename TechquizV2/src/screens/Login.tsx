@@ -12,12 +12,12 @@ function Login() {
                     <div className=" xl:w-[584px;] xl:h-[661px]  flex justify-center mt-32 max-w-xl p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
                         <form className="space-y-6 " action="#">
                             <h1 className="text-xl text-center font-bold font-Epilogue text-gray-900 dark:text-white">Sign in</h1>
-                            <div className="">
-                                <div className="">
+                            <div className="flex flex-col items-center">
+                                <div className="flex flex-col">
                                     <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your email</label>
                                     <input type="email" name="email" id="email" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-80 p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" placeholder="name@company.com" required />
                                 </div>
-                                <div>
+                                <div className="flex flex-col">
                                     <label htmlFor="password" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your password</label>
                                     <input type="password" name="password" id="password" placeholder="••••••••" className="w-80 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" required />
                                 </div>
